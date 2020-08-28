@@ -1,0 +1,39 @@
+.mainBody{
+    width: 100%;
+}
+.firstPart{
+    background-color: #ADD7DB;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    
+}
+.firstPart img{
+    height: 250px;
+    width: 400px;
+    float: right;
+}
+.firstPartpara{
+    width: 900px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.firstPartpara>h2{
+    background-color: #00838F;
+    width: 400px;
+    height: 60px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+.secondPart{
+    background-color: #00838F;
+    height: 60px;
+}
+
+.firstPartpara>button{
+    width: 200px;
+    height: 50px;
+    
+}
