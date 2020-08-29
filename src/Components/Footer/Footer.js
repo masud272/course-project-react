@@ -2,13 +2,9 @@ import React from 'react';
 import './Footer.css'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-
-
 const Footer = (props) => {
 
-
-
-    return (
+   return (
         <div className="CoursesArea">
             <div className="card-deck">
                 <div className="card">

@@ -1,9 +1,7 @@
 .navItem>a:hover{
-    
     background-color: #fff;
     border-radius: 10px;
 }
-
 .navItem{
     margin: 0px 100px;
 }
