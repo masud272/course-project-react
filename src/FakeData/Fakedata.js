@@ -3,7 +3,7 @@ var Course = [
         "id": 211,
         "CourseName": "English 1st Paper Course",
         "CourseBy": "Teacher Name",
-        "img" : 'https://ibb.co/BTWq86c',
+        "img" : 'http://dummyimage.com/219x135.png/ff4444/ffffff',
         "img2" : '../images/Edit Your CV.png',
         "email": "masud.md272@gmail.com",
        "code": "45676",

@@ -19,13 +19,15 @@ const Courses = (props) => {
         setCart(newCart);
     }
     const [cart, setCart] = useState([]);
+    const cartPrice = Number(cart)
+    
 
-    // let total = 0;
-    // for (let i = 0; i < cart.length; i++) {
-    //     let product = cart[i];
-    //     total = total + product.price; 
+    let total = 0;
+    for (let i = 0; i < cart.length; i++) {
+        let product = cart[i];
+        total = total + product; 
         
-    // }
+    }
     const formatNumber = num => {
         const precision = num.toFixed(2);
         return Number(precision);
@@ -36,8 +38,10 @@ const Courses = (props) => {
     return (
            <div>
                <p>Buy Total Course: {cart.length}</p>
-               <p>Total Course Amount : $</p>
-               <h5>Courses Available</h5>
+               <p>Total Course Amount : ${formatNumber(total)}</p>
+               <button className="btn btn-success">Buy Now- Limted Offer</button>
+               <h5>Courses Available</h5> 
+               
             <div>
                 {
                     Courses.map(user => <Footer user={user} key={user.id} AddCourse={handleAddProduct}></Footer>)

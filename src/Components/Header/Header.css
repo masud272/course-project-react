@@ -1,5 +1,7 @@
-.navItem a:hover{
-    color: #ffffff;
+.navItem>a:hover{
+    
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .navItem{

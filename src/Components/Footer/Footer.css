@@ -1,5 +1,10 @@
 .CoursesArea{
-   
+   width: 600px;
+   align-items: center;
    margin: 10px;
    
+}
+img{
+   width: 200px;
+   height: 200px;
 }
