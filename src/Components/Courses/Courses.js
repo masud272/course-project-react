@@ -44,6 +44,8 @@ const Courses = (props) => {
                 }
              </div>
              
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem laboriosam animi dolorem aperiam blanditiis!]</p>
+             
              <footer>
              © 2020 masud.md272@gmail.com All rights reserved.
              </footer>
