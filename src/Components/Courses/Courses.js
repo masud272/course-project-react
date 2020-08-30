@@ -42,7 +42,7 @@ const Courses = (props) => {
                <button className="btn btn-success">Buy Now- Limted Offer</button>
                <h5>Courses Available</h5> 
                
-            <div>
+            <div className="row m-4">
                 {
                     Courses.map(user => <Footer user={user} key={user.id} AddCourse={handleAddProduct}></Footer>)
                 }

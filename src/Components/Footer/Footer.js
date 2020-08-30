@@ -5,9 +5,9 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const Footer = (props) => {
 
    return (
-        <div className="CoursesArea">
+        <div className="CoursesArea col-md-3 m-auto">
             <div className="card-deck">
-                <div className="card">
+                <div className="card m-4">
                      <img className="card-img-top w-40" src={props.user.img} alt="img"/>
             <div className="card-body">
                      <h5 className="card-title">{props.user.CourseName}</h5>
@@ -19,15 +19,7 @@ const Footer = (props) => {
                 </div>
             </div>
                 </div>
-            </div>
-
-
-            
-
-
-            
-            
-            
+            </div>   
         </div>
     );
 };
